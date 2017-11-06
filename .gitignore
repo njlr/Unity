@@ -7,3 +7,9 @@ examples/example_2/all_tests.exe
 examples/example_1/test1.out
 examples/example_1/test2.out
 examples/example_2/all_tests.out
+
+/.buckd/
+/buck-out/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

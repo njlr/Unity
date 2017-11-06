@@ -1,0 +1,15 @@
+cxx_binary(
+  name = 'example_1',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('src', '**/*.h'),
+  ]),
+  srcs = glob([
+    'src/**/*.c',
+    'test/TestProductionCode.c',
+    'test/test_runners/TestProductionCode_Runner.c',
+  ]),
+  deps = [
+    '//:unity',
+  ],
+)
